@@ -1,0 +1,22 @@
+{
+  "name": "BotProject",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/nickyemyob/BotProject.git",
+  "author": "Nick Ye <nick.ye888@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel src -d dest && node ./dest/app.js",
+    "build": "babel src -d dest"
+  },
+  "dependencies": {
+    "botbuilder": "^3.14.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
