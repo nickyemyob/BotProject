@@ -1,4 +1,4 @@
-import builder from 'botbuilder';
+import * as builder from 'botbuilder';
 
 let connector = new builder.ConsoleConnector().listen();
 let bot = new builder.UniversalBot(connector, ((session) => {
