@@ -10,7 +10,8 @@
     "build": "babel src -d dest"
   },
   "dependencies": {
-    "botbuilder": "^3.14.1"
+    "botbuilder": "^3.14.1",
+    "restify": "^7.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
